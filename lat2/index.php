@@ -15,7 +15,6 @@ $matkul_1->setData('A11.12345', 'Pemrograman Berbasis Web');
 $matkul_2->setData('A11.12346', 'Pemrograman Web Lanjut');
 
 // Dalam mengisi data, ternyata dapat diisi dengan sebuah array (dari data matkul) 
-// kode ini mungkin revisi dari ppt sebelumnya yang menampilkan data berupa tanggal lahir ^_^
 $mahasiswa1->setData('A11.2023.14880', 'Calvin Samuel Simbolon', [$matkul_1, $matkul_2]);
 
 // mencoba memberikan output, di tampilkan di layar dengan echo
